@@ -1,0 +1,89 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.task-create{
+  width: 450px;
+}
+.task-update{
+  width: 100%;
+}
+.task-form{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgba(0, 0, 0, 0.346);
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 9%;
+}
+.form-title{
+  text-align: center;
+  color: rgba(0, 0, 0, 0.846);
+}
+.task-label{
+  margin:10px 0;
+}
+
+.task-input{
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+textarea {
+  resize: none;
+}
+.task-button {
+  border: 1px solid  rgba(102, 0, 128, 0.312);
+  margin: 10px auto; /* Otomatik olarak sağa ve sola eşit margin */
+  padding: 7px;
+  background-color: rgba(127, 43, 144, 0.877);
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  display: block; /* Butonun tam genişlikte olmasını sağlar ve margin'in çalışmasını sağlar */
+  width: 55%;
+}
+
+.update-button{
+  background-color: rgba(127, 43, 144, 0.877);
+}
+.task-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.task-show{
+  border: 2px solid rgba(0, 0, 0, 0.346);
+  border-radius: 30px;
+  width: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.task-title{
+  margin-bottom: 5px;
+}
+.task-delete{
+  padding: 5px;
+  font-size: 15px;
+  width: 60px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgba(255, 128, 0, 0.822);
+  color: white;
+  margin-right: 10px;
+}
+.task-edit{
+  padding: 5px;
+  font-size: 15px;
+  width: 100px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgba(255, 128, 0, 0.822);
+  color: white;
+  margin-right: 10px;
+}
